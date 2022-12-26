@@ -46,8 +46,8 @@ app.get("/", (req, res) => {
 
 app.post("/api/users", createUser);
 app.get("/api/users", getAllUsers);
-app.post("/api/users/:_id/exercises", createExercise);
-app.get("/api/users/:_id/exercises", getAllExercises);
+app.post("/api/users/:_id/logs", createExercise);
+app.get("/api/users/:_id/logs", getAllExercises);
 
 
 const start = async () => {
